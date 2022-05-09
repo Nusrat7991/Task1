@@ -148,7 +148,7 @@ who we are Section
 .who-we-image{
     max-width: 100%;
     height: auto;
-    /* flex-basis: 40%; */
+    flex-basis: 40%;
 }
 .who-we-image img{}
 
@@ -202,6 +202,7 @@ what we do Section
 }
 .whatwedo-box img{
     width: 100%;
+    
 }
 .whatwedo-box .overlay{
     width: 100%;
@@ -227,7 +228,7 @@ what we do Section
     width: 100%;
     text-align: center;
     position: absolute;
-    font-size: 26px;
+    font-size: 2.5vw;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
@@ -293,7 +294,7 @@ Our attorneys Section
 }
 .ouratt-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vw;
+    font-size: 4vh;
     font-weight: 900;
     color: rgba(0, 0, 0, 0.932);
     padding: 15px 0;
@@ -301,7 +302,7 @@ Our attorneys Section
 }
 .ouratt-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8vw;
+    font-size: 2vh;
     color: rgb(255, 255, 255);
     padding-bottom: 25px;
 }
@@ -320,9 +321,11 @@ Our attorneys Section
 
 .our-attorneys{
     max-width: 65%;
-    flex-basis: 65%;
+    flex-basis: 60%;
+    height: auto;
 }
 .our-attorney{}
+
 .individual-att{
      position: relative;
 }
@@ -332,7 +335,7 @@ Our attorneys Section
 .individual-att h1 a{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 900;
     color: #fff;
     bottom: 1px;
@@ -346,7 +349,7 @@ Our attorneys Section
     opacity: 1;
 }
 .individual-att .overlay{
-    width: 100%;
+    width: 70%;
     height: 40%;
     transition : all 0.3s;
     display: block;
