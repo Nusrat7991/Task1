@@ -143,7 +143,7 @@ who we are Section
 }
 .who-we-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1 rem;
+    font-size: 1rem;
 }
 .who-we-image{
     max-width: 100%;
@@ -185,7 +185,7 @@ what we do Section
 }
 .what-we-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 3vw;
     font-weight: 900;
     color: #28367d;
     padding: 15px 0;
