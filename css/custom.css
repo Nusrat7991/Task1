@@ -14,7 +14,7 @@ header .row{
 }
 header .logo{}
 header .logo h1{
-    font-size: 4vw;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,7 +26,7 @@ nav ul li{
 }
 nav ul li a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
+    font-size: 13px;
     display: block;
     color: #000;
     font-weight: 600;
@@ -57,6 +57,7 @@ banner Section
 .banner-section{
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 .banner1{}
 .banner2{
@@ -70,11 +71,11 @@ banner Section
     transform: translate(-50%, -50%);
 }
 .banner-content h1{
-    font-size: 7vw;
-    color: rgb(201, 16, 16);
+    font-size: 5vw;
+    color: rgb(184, 0, 89);
     line-height: 1 ;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    font-weight: bolder;
 }
 .click-down{
     position: absolute;
@@ -132,22 +133,20 @@ who we are Section
     height: 4px;
     width: 65px;
     background: #f15927;
-    
 }
 .who-we-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vh;
+    font-size: 35px;
     font-weight: 900;
     color: #28367d;
     padding: 15px 0;
 }
 .who-we-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 14px;
 }
 .who-we-image{
-    max-width: 100%;
-    height: auto;
+    max-width: 40%;
     flex-basis: 40%;
 }
 .who-we-image img{}
@@ -168,7 +167,7 @@ what we do Section
 */
 
 .whatwedo-section{
-    background-color: #f7f8f8aa;
+    background-color: #f7f8f8;
     background-image: url(../images/whatwe_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -185,7 +184,7 @@ what we do Section
 }
 .what-we-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vw;
+    font-size: 35px;
     font-weight: 900;
     color: #28367d;
     padding: 15px 0;
@@ -201,8 +200,8 @@ what we do Section
     position: relative;
 }
 .whatwedo-box img{
-    width: 100%;
-    
+    max-width: 100%;
+    height: auto;
 }
 .whatwedo-box .overlay{
     width: 100%;
@@ -228,7 +227,7 @@ what we do Section
     width: 100%;
     text-align: center;
     position: absolute;
-    font-size: 2.5vw;
+    font-size: 26px;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
@@ -273,7 +272,7 @@ Our attorneys Section
 */
 
 .ourattorneys-section{
-    background-image: url(../images/our_att.jpeg);
+    background-image: url(../images/our_att.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0px;
@@ -290,27 +289,27 @@ Our attorneys Section
     display: block;
     height: 4px;
     width: 65px;
-    background: #f55200;
+    background: #f15927;
 }
 .ouratt-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vh;
+    font-size: 4vw;
     font-weight: 900;
-    color: rgba(0, 0, 0, 0.932);
+    color: rgb(20, 16, 16);
     padding: 15px 0;
     line-height: 1;
 }
 .ouratt-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vh;
-    color: rgb(255, 255, 255);
+    font-size: 14px;
+    color: #999;
     padding-bottom: 25px;
 }
 .ouratt-content a{
      font-family: 'Montserrat', sans-serif;
      font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(0, 0, 0);
     transition: all 0.3s;
 
 }
@@ -321,11 +320,9 @@ Our attorneys Section
 
 .our-attorneys{
     max-width: 65%;
-    flex-basis: 60%;
-    height: auto;
+    flex-basis: 65%;
 }
 .our-attorney{}
-
 .individual-att{
      position: relative;
 }
@@ -335,7 +332,7 @@ Our attorneys Section
 .individual-att h1 a{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 900;
     color: #fff;
     bottom: 1px;
@@ -350,7 +347,7 @@ Our attorneys Section
 }
 .individual-att .overlay{
     width: 100%;
-    height: auto;
+    height: 40%;
     transition : all 0.3s;
     display: block;
     position: absolute;
@@ -395,7 +392,7 @@ Language Section
 }
 .lang-heading h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vw;
+    font-size: 35px;
     font-weight: 900;
     color: #28367d;
     padding: 15px 0;
@@ -409,22 +406,21 @@ Language Section
 }
 .language h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2vw;
+    font-size: 24px;
     color: #28367d;
     font-weight: 900;
     padding-bottom: 15px;
-    vertical-align: -.125em;
 
 }
 .language p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
+    font-size: 14px;
     color: #999;
     padding-bottom: 25px;
 }
 .language a{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw;
+    font-size: 14px;
     font-weight: bold;
     color: #f15927;
 }
@@ -444,7 +440,7 @@ Contact Us Section
 
 .contactus-section{
     padding-top: 75px;
-    background-color: #bd1973;
+    background-color: #f50987;
 }
 .contactus-section .row{
     justify-content: center;
