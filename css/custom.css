@@ -136,18 +136,19 @@ who we are Section
 }
 .who-we-content h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vh;
+    font-size: 4vh;
     font-weight: 900;
     color: #28367d;
     padding: 15px 0;
 }
 .who-we-content p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw;
+    font-size: 1 rem;
 }
 .who-we-image{
-    max-width: 40%;
-    flex-basis: 40%;
+    max-width: 100%;
+    height: auto;
+    /* flex-basis: 40%; */
 }
 .who-we-image img{}
 
