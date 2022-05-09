@@ -8,9 +8,7 @@
 	-o-box-sizing: border-box;
 }
 body{
-	font-size: 9vw;
-	max-width: 100%;
-
+	font-size: 16px;
 }
 a, a:hover{
 	text-decoration: none;
@@ -21,7 +19,6 @@ li{
 img{
 	max-width: 100%;
 	display: block;
-	height: auto;
 }
 .row{
 	display: flex;
@@ -30,8 +27,15 @@ img{
 .container{
 	max-width: 1100px;
 	margin: 0 auto;
-	text-align: center;
 }
 
-     
-    
+.scoll-pane {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    outline: none;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    -ms-overflow-style: scroll;
+    scrollbar-width: none;  
+}
